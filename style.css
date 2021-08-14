@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+height: 100%;
+width: 100%;
+font-family: 'poppins', sans-serif;
+color: rgb(0, 0, 0);
+background-color: #2b331f;
+}
+
+.navbar  {
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em;
+}
+
+.nav-link active {
+  color: blueviolet;
+}
+#navbarResponsive{
+  flex-flow: center;
+}
+.header-text{
+  color: #ffff;
+  margin-left: 1rem;
+}
+
+.header{
+  width: 100%;
+  height: 30%;
+}
+
+.header-middle{
+  width: 100%;
+  height: 40%;
+  border-top: white 2px;
+  border-bottom: white 2px;
+}
+
+.top-bar{
+  border-top: solid white 1px;
+  border: solid white 1px;
+  padding-top: 3rem;
+  margin-top: 30px;
+}
+#landing-container{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  justify-content: space-around;
+}
+
+  .landing-btn{
+    height: 22%;
+    width: 90%;
+    background-color: white;
+    background-size: 100%;
+    display: flex;
+    flex-flow: space-around;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border-radius: .75rem;
+    box-shadow: 0rem 0rem 10rem black inset,0rem 0rem 0rem .35rem white ;
+  }
+  img {
+    max-width: 100%;
+  }
+  /* #logo-img{
+    max-height: 80%;
+    width: auto;
+    display: flex;
+    flex: flex-start;
+    flex-flow: center;
+    align-content: center;
+    justify-content: space-around;
+  } */
+
+  .logo01{
+    height: 100%;
+  }
+  .slogan-text{
+    width: 80%;
+    height: 33%;
+    padding-top: 25px;
+    border-top: 1px solid white;
+    margin-left: 10rem;
+  }
+
+  #slogan-bar{
+    border: 2px solid white;
+    width: 100%;
+    margin: 2px;
+  }
+
+  .btn-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .branding-container{
+    height: 10%;
+  }
+
+  .card-img-top{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-brand img{
+  width: 20%;
+  height: auto
+}
+
+.jumbotron {
+  padding: .1rem;
+  border-radius: 0;
+}
+
+.padding{
+  padding-bottom: .2rem;
+}
+
+.welcome{
+  width:75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.card{
+  border-radius: 25;
+}
+
+.btn{
+  background-color: #5F7D6E ;
+  color: #ffff
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #D39B75; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (4 icons with 25% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: #3d3d3d; /* White text color */
+  font-size: 24px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #AF8366; /* Add a hover color */
+}
+
+.active {
+  background-color: #AF8366; /* Add an active/current color */
+}
+.bottomfiller {
+  height: 10vh;
+}
+
+#congrats-card {
+ text-align: center;
+ margin-top: 1rem;
+ margin-bottom: 2rem;
+ font-weight: bolder;
+ color: #575757
+}
+#currentpts-card{
+  text-align: center;
+ font-weight: bolder;
+ color: #575757
+
+}
+.preloader {
+  position: fixed;
+  width: 110vw;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: space-around;
+}
+#wide-button{
+  width: 100%;
+}
+#wide-button-var{
+  width: 100%;
+  background-color: #D39B75;
+  color: #3d3d3d;
+  font-weight: bolder;
+}
+/* .card-text{
+  padding-left : 5rem;
+  padding-right: 5rem;
+} */
+
+
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
