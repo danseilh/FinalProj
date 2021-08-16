@@ -60,7 +60,18 @@ background-color: #2b331f;
   justify-content: space-around;
 }
 
+span{ 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+}   
+
   .landing-btn{
+    position: relative;
     height: 22%;
     width: 90%;
     background-color: white;
@@ -207,16 +218,61 @@ background-color: #2b331f;
 }
 .preloader {
   position: fixed;
-  width: 110vw;
+  width: 100vw;
   height: 100vh;
   z-index: 100000;
-  background-color: white;
+  background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 5%, rgba(43,51,31,1) 100%);
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: space-around;
+  color: white;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: center;
+    background: linear-gradient(183deg, #2b331f, #af8366);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
 }
+.css-selector {
+  background: linear-gradient(183deg, #2b331f, #af8366);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:49% 0%}
+  50%{background-position:52% 100%}
+  100%{background-position:49% 0%}
+}
+
+#loading_message{
+  text-align: justify;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
 #wide-button{
   width: 100%;
 }
